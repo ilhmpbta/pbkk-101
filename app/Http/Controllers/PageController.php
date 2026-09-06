@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 class PageController extends Controller {
     public function home() {
-        return view('home');
+        return view('pages.home');
     }
 
     public function about() {
-        return view('about');
+        return view('pages.about');
     }
 
     public function projectIdea() {
-        return view('project-idea');
+        return view('pages.project-idea');
     }
 }
