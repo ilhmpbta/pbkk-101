@@ -7,13 +7,15 @@ class HitungController extends Controller {
         $result = 0;
         $operation = strtolower($operation);
         if ($operation === 'tambah') $result = $number1 + $number2;
-        if ($operation === 'kurang') $result = $number1 - $number2;
-        if ($operation === 'kali') $result = $number1 * $number2;
-        if ($operation === 'bagi') {
+        elseif ($operation === 'kurang') $result = $number1 - $number2;
+        elseif ($operation === 'kali') $result = $number1 * $number2;
+        elseif ($operation === 'bagi') {
             if ($number2 != 0) $result = $number1 / $number2;
             else $result = 'Error: Division by zero';
+        } else {
+            $result = 'Error: Invalid operation';
         }
 
-        return "Hasil dari $number1 $operation $number2 adalah $result";
+        return "Hasil dari $number1 $operation $number2 adalah " . (is_numeric($result) ? number_format($result, 2) : $result);
     }
 }
