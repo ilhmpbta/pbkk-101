@@ -8,7 +8,7 @@
         <div class="text-center mb-12">
             <h1 class="text-4xl font-bold text-white mb-4">Final Project Idea</h1>
             <p class="text-xl text-gray-300">
-                Agentic AI<br>
+                System Log Anomaly Detection Agent<br>
                 Department of Informatics Engineering ITS
             </p>
         </div>
@@ -17,8 +17,8 @@
         <div class="bg-gray-800/50 p-6 rounded-lg border border-white/10 mb-6">
             <h2 class="text-xl font-semibold text-white mb-4">Project Overview</h2>
             <p class="text-gray-300 leading-relaxed">
-                This project explores the implementation of Agentic AI systems for solving complex problems 
-                in the field of informatics engineering. Coming soon with exciting developments!
+                An Agentic AI platform that autonomously monitors and analyzes system logs to detect anomalies,
+                identify potential causes, determine severity, and provide troubleshooting recommendations.
             </p>
         </div>
         
@@ -28,8 +28,8 @@
             <div class="bg-gray-800/50 p-6 rounded-lg border border-white/10">
                 <h3 class="text-xl font-semibold text-indigo-400 mb-4">Objective</h3>
                 <p class="text-gray-300 text-sm leading-relaxed">
-                    Develop an intelligent agent system that can autonomously make decisions and perform tasks 
-                    in a web application environment.
+                    Develop an autonomous AI agent that detects abnormal log patterns and assists users
+                    in diagnosing and resolving system issues.
                 </p>
             </div>
             
@@ -38,8 +38,8 @@
                 <h3 class="text-xl font-semibold text-indigo-400 mb-4">Technologies</h3>
                 <div class="flex flex-wrap gap-2">
                     <span class="px-3 py-1 bg-indigo-900/50 text-indigo-300 text-sm rounded-full">Laravel</span>
-                    <span class="px-3 py-1 bg-indigo-900/50 text-indigo-300 text-sm rounded-full">Tailwind CSS</span>
-                    <span class="px-3 py-1 bg-indigo-900/50 text-indigo-300 text-sm rounded-full">Python</span>
+                    <span class="px-3 py-1 bg-indigo-900/50 text-indigo-300 text-sm rounded-full">NativePHP</span>
+                    <span class="px-3 py-1 bg-indigo-900/50 text-indigo-300 text-sm rounded-full">LLM</span>
                     <span class="px-3 py-1 bg-indigo-900/50 text-indigo-300 text-sm rounded-full">AI/ML</span>
                 </div>
             </div>
@@ -51,19 +51,19 @@
             <ul class="space-y-2 text-gray-300">
                 <li class="flex items-start gap-2">
                     <span class="text-indigo-400 mt-1">▸</span>
-                    <span class="text-sm">Functional prototype of an agentic AI system</span>
+                    <span class="text-sm">Automatic system log anomaly detection</span>
                 </li>
                 <li class="flex items-start gap-2">
                     <span class="text-indigo-400 mt-1">▸</span>
-                    <span class="text-sm">Integration with web application framework</span>
+                    <span class="text-sm">AI-powered anomaly analysis and root cause identification</span>
                 </li>
                 <li class="flex items-start gap-2">
                     <span class="text-indigo-400 mt-1">▸</span>
-                    <span class="text-sm">Comprehensive documentation and user guide</span>
+                    <span class="text-sm">Troubleshooting recommendations and incident reports</span>
                 </li>
                 <li class="flex items-start gap-2">
                     <span class="text-indigo-400 mt-1">▸</span>
-                    <span class="text-sm">Performance evaluation and analysis</span>
+                    <span class="text-sm">Standalone desktop application</span>
                 </li>
             </ul>
         </div>
