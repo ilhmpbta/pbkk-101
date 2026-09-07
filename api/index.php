@@ -1,3 +1,7 @@
 <?php
 
-require_once __DIR__ . '/../public/index.php';
+$publicPath = __DIR__ . '/../public';
+
+chdir($publicPath);
+
+require_once $publicPath . '/index.php';
