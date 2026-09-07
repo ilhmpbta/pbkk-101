@@ -84,7 +84,7 @@
             <h3 class="text-xl font-semibold text-white mb-4">Our Location</h3>
             <p class="text-gray-400 text-sm mb-4">
                 Departemen Teknik Informatika ITS<br>
-                Jl. Raya ITS, Sukolilo, Surabaya 60111
+                Jl. Teknik Kimia ITS, Sukolilo, Surabaya 60111
             </p>
             <div class="rounded-lg overflow-hidden border border-white/10">
                 <iframe 
