@@ -65,6 +65,11 @@
         ],
         "pre-package-uninstall": [
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
+        ],
+        "vercel-build": "composer install --no-dev && npm install && npm run build",
+        "post-install-cmd": [
+          "@php artisan key:generate --no-interaction",
+          "@php artisan config:cache"
         ]
     },
     "extra": {
