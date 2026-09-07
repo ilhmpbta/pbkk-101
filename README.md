@@ -73,6 +73,15 @@ Layout responsif dan menggunakan framework CSS (tailwindcss) untuk styling. Navb
 | ![android](./public/screenshots/web-tantangan2-android.png) | ![android-navbar](./public/screenshots/web-tantangan2-android-navbar.png) |
 
 
+### Bonus: 404 Handler
+
+| ![404](./public/screenshots/web-404.png) |
+| :--: |
+
+
+---
+
+
 ## Local Deployment
 
 1. **Clone the repository**
